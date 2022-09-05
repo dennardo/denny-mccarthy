@@ -73,3 +73,51 @@ button,
     color: #E5E7EB;
     width: 100px;
 }
+
+.boxes {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    flex-direction: column;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15%;
+    border-width: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.thor {
+    font-size: 36px;
+    font-weight: bolder;
+}
